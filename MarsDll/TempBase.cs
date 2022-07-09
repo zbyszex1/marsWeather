@@ -94,10 +94,56 @@ namespace MarsDll
             DateTime dt1 = DateTime.Now;
             ts = dt1 - dt0;
         }
-        #endregion
 
-        #region properties
-        public int TempSize
+        public int solution(int N)
+        {
+            int result = 0;
+            int bits = 1;
+            int value = 1;
+            Boolean bOne = false;
+            int zeros = 0;
+            int rest = N;
+            if (N == 0)
+                return result;
+            while (N >= value && bits < 31)
+            {
+                value = value * 2;
+                bits += 1;
+            }
+            int[] bins = new int[bits];
+            for (int i = 0; i < bits; i++)
+            {
+                if (rest >= value)
+                {
+                    rest -= value;
+                    bins[i] = 1;
+                }
+                else
+                {
+                    bins[i] = 0;
+                }
+                value /= 2;
+            }
+            for (int i = 0; i < bits; i++)
+            {
+                if (bins[i] == 1)
+                {
+                    if (zeros > result)
+                        result = zeros;
+                    bOne = true;
+                    zeros = 0;
+                }
+                if (bOne && bins[i] == 0)
+                    zeros++;
+            }
+            // write your code in Java SE 8
+            return result;
+        }
+
+    #endregion
+
+    #region properties
+    public int TempSize
         {
             get { return tempSize; }
         }

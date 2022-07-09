@@ -8,6 +8,18 @@ bool ignoreZero = false;
 bool errors = false;
 #endregion
 
+
+//int result = Graph.solution(Graph.T5);
+//int result = Graph.conforming(1073741727, 1073741631, 1073741679);
+//int[] arr = { 1, 3, 5, 3, 4 };
+//bool ok = Graph.solution(arr);
+int[] weights = { 60, 80, 40 };
+int[] floors = { 2, 3, 5 };
+int stops = Graph.solution(weights, floors, 5,2, 200);
+//int[] weights = { 40, 40, 100, 80, 20 };
+//int[] floors = { 3, 3, 2, 2, 3};
+//int stops = Graph.solution(weights, floors, 3, 5, 200);
+
 #region Determining mode of operation
 Console.Title = "Mars weather service";
 Console.Write("Use predefined 30 element array (y/N)?");
@@ -57,6 +69,7 @@ else
 }
 #endregion
 
+tempBase.solution(2147483645);
 #region finding temperature closest to zero
 if (!errors)
 {
