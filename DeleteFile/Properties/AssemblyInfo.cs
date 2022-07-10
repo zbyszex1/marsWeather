@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PulseSecure")]
+[assembly: AssemblyTitle("DeleteFile")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PulseSecure")]
+[assembly: AssemblyProduct("DeleteFile")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b147cec0-0fd4-466f-a02e-ec9d2100049d")]
+[assembly: Guid("8f5fecc1-d191-4d48-ad7c-39ec52fc1c3e")]
 
 // Version information for an assembly consists of the following four values:
 //

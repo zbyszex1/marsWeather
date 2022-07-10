@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PulseSecure
+namespace DeleteRegistry
 {
   internal class Program
   {
@@ -28,7 +28,8 @@ namespace PulseSecure
       if (registrySet != "localmachine" && registrySet != "currentuser" &&
           registrySet != "classesroot" && registrySet != "currentconfig" && registrySet!="all")
       {
-        Console.WriteLine("run with LocalMachine, CurrentUser, CurrentConfig, ClassesRoot or ALL");
+        Console.WriteLine("run with 'LocalMachine', 'CurrentUser', 'CurrentConfig', 'ClassesRoot' or 'ALL'");
+        Console.ReadKey();
         return;
       }
       if (search.Length == 0)
@@ -42,22 +43,28 @@ namespace PulseSecure
         Console.Write("Nothing to do");
         return;
       }
+      Log.Init();
       Console.WriteLine("--- start ---");
       if (registrySet == "all")
       {
         Regs regs = new Regs("localmachine");
         regs.List(search.ToLower());
+        regs.ClearLine();
         regs = new Regs("currentuser");
         regs.List(search.ToLower());
+        regs.ClearLine();
         regs = new Regs("currentconfig");
         regs.List(search.ToLower());
+        regs.ClearLine();
         regs = new Regs("classesroot");
         regs.List(search.ToLower());
+        regs.ClearLine();
       }
       else
       {
         Regs regs = new Regs(registrySet);
         regs.List(search.ToLower());
+        regs.ClearLine();
       }
       Console.Write("--- done ---");
 
