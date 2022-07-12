@@ -1,0 +1,120 @@
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Provider Filters\{3884BCAA-C611-4e2d-9105-E11B1203294E}\ :Pulse Secure SSO Credential Provider Filter
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{4B9CAC01-6732-40d0-8B8F-B5B340F9D44F}\ :Pulse Secure SSO OneX Password Credential Provider
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{4EFD0F35-BFBA-44eb-8F25-2B3530203C1D}\ :Pulse Secure SSO Password Credential Provider
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{C1258FBC-F04F-4862-B78A-DDAAEF4A9707}\ :Pulse Secure SSO OneX Smartcard Credential Provider
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{EAB1A79F-DFAA-4faf-A7B9-A6652E97EE16}\ :Pulse Secure SSO Smartcard Credential Provider
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\ PulseSecure:C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\Pulse.exe -tray
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Pulse_Setup_Client Activex Control\ DisplayName:Pulse Secure Setup Client Activex Control
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Pulse_Setup_Client Activex Control\ Publisher:Pulse Secure, LLC
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{7CCFFD43-184C-40B0-9887-B501A88F8F29}\ Publisher:Pulse Secure, LLC
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{081CB686-E56B-4C26-A0A9-E7A4A4ADC094}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\dsInstallerServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{1B051258-5990-46D6-855F-A764FE81A35B}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\CloudAppVisibility\CloudAppVisibilityServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{3884BCAA-C611-4e2d-9105-E11B1203294E}\ :Pulse Secure SSO Credential Provider Filter Class
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{3884BCAA-C611-4e2d-9105-E11B1203294E}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\jamSSOCredProv.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{3E6FC4E0-C149-4E07-8679-1F019BCB12BA}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\HostCheckerServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{4B9CAC01-6732-40d0-8B8F-B5B340F9D44F}\ :Pulse Secure SSO OneX Password Credential Provider Class
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{4B9CAC01-6732-40d0-8B8F-B5B340F9D44F}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\jamSSOCredProv.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{4EFD0F35-BFBA-44eb-8F25-2B3530203C1D}\ :Pulse Secure SSO Password Credential Provider Class
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{4EFD0F35-BFBA-44eb-8F25-2B3530203C1D}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\jamSSOCredProv.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{61FE4786-084E-4598-8F16-30DED15B6125}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\PulseSecureServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{635FAC2C-87DF-42CA-9630-301697829BF2}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\8021xAccessMethod\8021xAccessMethodPS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{673867FA-2CD8-495A-A22C-820A3800A9F5}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\Tunnel Manager\dsTMServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{8D622A6A-24F5-4EF1-B5E9-5305B0626810}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\AccessMethodPS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{93DBDC46-C99C-4266-A871-9208213282A1}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\uiPromptPluginPS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{A36A6A63-33C9-41A5-85A8-FB5CB4D1302D}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\uiModelServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{C1258FBC-F04F-4862-B78A-DDAAEF4A9707}\ :Pulse Secure SSO OneX Smartcard Credential Provider Class
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{C1258FBC-F04F-4862-B78A-DDAAEF4A9707}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\jamSSOCredProv.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{C1FAF476-B9C2-4F01-A323-074F00A90EA1}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\Integration\IntegrationAccessMethodPS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{C74D0078-6B9F-4928-BF49-163F885B1332}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\uiModelServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E1C2CFAE-0C5A-4416-B24B-9F106A604509}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\dsIpc.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E60EAB20-C294-4757-8507-E14A72676EA9}\InprocHandler32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\PulseSecureServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{EAB1A79F-DFAA-4faf-A7B9-A6652E97EE16}\ :Pulse Secure SSO Smartcard Credential Provider Class
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{EAB1A79F-DFAA-4faf-A7B9-A6652E97EE16}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\jamSSOCredProv.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{F4F3404B-3474-470D-987D-BDAB0329EF46}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\ConnectionStore\ConnectionStoreServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Products\A2404D9BFBB19894394C92F3939FC0B2\ ProductName:Pulse Secure
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\PulseSecureClient\ :URL:Pulse Secure Desktop Client
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\PulseSecureClient\shell\open\command\ :"C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\Pulse.exe" %1
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{081CB686-E56B-4C26-A0A9-E7A4A4ADC094}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\dsInstallerServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{1B051258-5990-46D6-855F-A764FE81A35B}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\CloudAppVisibility\CloudAppVisibilityServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{3884BCAA-C611-4e2d-9105-E11B1203294E}\ :Pulse Secure SSO Credential Provider Filter Class
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{3884BCAA-C611-4e2d-9105-E11B1203294E}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\jamSSOCredProv.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{3E6FC4E0-C149-4E07-8679-1F019BCB12BA}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\HostCheckerServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{4B9CAC01-6732-40d0-8B8F-B5B340F9D44F}\ :Pulse Secure SSO OneX Password Credential Provider Class
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{4B9CAC01-6732-40d0-8B8F-B5B340F9D44F}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\jamSSOCredProv.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{4EFD0F35-BFBA-44eb-8F25-2B3530203C1D}\ :Pulse Secure SSO Password Credential Provider Class
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{4EFD0F35-BFBA-44eb-8F25-2B3530203C1D}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\jamSSOCredProv.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{61FE4786-084E-4598-8F16-30DED15B6125}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\PulseSecureServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{635FAC2C-87DF-42CA-9630-301697829BF2}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\8021xAccessMethod\8021xAccessMethodPS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{673867FA-2CD8-495A-A22C-820A3800A9F5}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\Tunnel Manager\dsTMServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{8D622A6A-24F5-4EF1-B5E9-5305B0626810}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\AccessMethodPS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{93DBDC46-C99C-4266-A871-9208213282A1}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\uiPromptPluginPS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{A36A6A63-33C9-41A5-85A8-FB5CB4D1302D}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\uiModelServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{C1258FBC-F04F-4862-B78A-DDAAEF4A9707}\ :Pulse Secure SSO OneX Smartcard Credential Provider Class
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{C1258FBC-F04F-4862-B78A-DDAAEF4A9707}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\jamSSOCredProv.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{C1FAF476-B9C2-4F01-A323-074F00A90EA1}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\Integration\IntegrationAccessMethodPS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{C74D0078-6B9F-4928-BF49-163F885B1332}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\uiModelServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{E1C2CFAE-0C5A-4416-B24B-9F106A604509}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\dsIpc.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{E60EAB20-C294-4757-8507-E14A72676EA9}\InprocHandler32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\PulseSecureServicePS.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{EAB1A79F-DFAA-4faf-A7B9-A6652E97EE16}\ :Pulse Secure SSO Smartcard Credential Provider Class
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{EAB1A79F-DFAA-4faf-A7B9-A6652E97EE16}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\jamSSOCredProv.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{F4F3404B-3474-470D-987D-BDAB0329EF46}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\ConnectionStore\ConnectionStoreServicePS.dll
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Network\{4D36E972-E325-11CE-BFC1-08002BE10318}\{BD196E86-1AAB-49D4-AA32-F12BFA303699}\Connection\ Name:Pulse Secure
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\Environment\ Path:C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ConfigMgr 2012 Toolkit R2\ClientTools;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Eaphost\Methods\2636\ :Pulse Secure
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Eaphost\Methods\2636\21\ PeerDllPath:C:\Program Files (x86)\Common Files\Pulse Secure\8021xAccessMethod\JNPRTtlsProvider.dll
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\jnprTdi_918_3999\ DisplayName:Pulse Secure TDI Filter Driver (jnprTdi_918_3999)
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\PulseSAM\ DisplayName:Pulse Secure WFP Driver (PulseSAM)
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\PulseSecureService\ ImagePath:"C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\PulseSecureService.exe"
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\PulseSecureService\ DisplayName:Pulse Secure Service
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\PulseSecureService\ Description:Manages Pulse Secure Software
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Network\{4D36E972-E325-11CE-BFC1-08002BE10318}\{BD196E86-1AAB-49D4-AA32-F12BFA303699}\Connection\ Name:Pulse Secure
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment\ Path:C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ConfigMgr 2012 Toolkit R2\ClientTools;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eaphost\Methods\2636\ :Pulse Secure
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eaphost\Methods\2636\21\ PeerDllPath:C:\Program Files (x86)\Common Files\Pulse Secure\8021xAccessMethod\JNPRTtlsProvider.dll
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\jnprTdi_918_3999\ DisplayName:Pulse Secure TDI Filter Driver (jnprTdi_918_3999)
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PulseSAM\ DisplayName:Pulse Secure WFP Driver (PulseSAM)
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PulseSecureService\ ImagePath:"C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\PulseSecureService.exe"
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PulseSecureService\ DisplayName:Pulse Secure Service
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PulseSecureService\ Description:Manages Pulse Secure Software
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Low Rights\ElevationPolicy\{3E8944DC-79B5-4650-9C2E-83885548A119}\ AppPath:C:\Users\zsarata001\AppData\Roaming\Pulse Secure\Setup Client
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Pulse_Setup_Client\ DisplayName:Pulse Secure Setup Client
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Pulse_Setup_Client\ UninstallString:"C:\Users\zsarata001\AppData\Roaming\Pulse Secure\Setup Client\uninstall.exe"
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Pulse_Setup_Client\ StartupApp:"C:\Users\zsarata001\AppData\Roaming\Pulse Secure\Setup Client\PulseSetupClient.exe"
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Pulse_Setup_Client\ StopApp:"C:\Users\zsarata001\AppData\Roaming\Pulse Secure\Setup Client\PulseSetupClient.exe" -stop
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Pulse_Setup_Client\ Publisher:Pulse Secure, LLC
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Pulse_Setup_Client\ InstallLocation:C:\Users\zsarata001\AppData\Roaming\Pulse Secure\Setup Client
+HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache\ C:\Users\zsarata001\AppData\Roaming\Pulse Secure\PSAL\PulseApplicationLauncher.exe.FriendlyAppName:Pulse Secure Application Launcher
+HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache\ C:\Users\zsarata001\AppData\Roaming\Pulse Secure\PSAL\PulseApplicationLauncher.exe.ApplicationCompany:Pulse Secure, LLC
+HKEY_CURRENT_USER\SOFTWARE\Classes\PulseSecure\shell\open\command\ :"C:\Users\zsarata001\AppData\Roaming\Pulse Secure\PSAL\PulseApplicationLauncher.exe" %1
+HKEY_CURRENT_USER\SOFTWARE\Classes\PulseSecure2\shell\open\command\ :"C:\Users\zsarata001\AppData\Roaming\Pulse Secure\PSAL\PulseApplicationLauncher.exe" %1
+HKEY_CLASSES_ROOT\CLSID\{081CB686-E56B-4C26-A0A9-E7A4A4ADC094}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\dsInstallerServicePS.dll
+HKEY_CLASSES_ROOT\CLSID\{1B051258-5990-46D6-855F-A764FE81A35B}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\CloudAppVisibility\CloudAppVisibilityServicePS.dll
+HKEY_CLASSES_ROOT\CLSID\{3884BCAA-C611-4e2d-9105-E11B1203294E}\ :Pulse Secure SSO Credential Provider Filter Class
+HKEY_CLASSES_ROOT\CLSID\{3884BCAA-C611-4e2d-9105-E11B1203294E}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\jamSSOCredProv.dll
+HKEY_CLASSES_ROOT\CLSID\{3E6FC4E0-C149-4E07-8679-1F019BCB12BA}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\HostCheckerServicePS.dll
+HKEY_CLASSES_ROOT\CLSID\{4B9CAC01-6732-40d0-8B8F-B5B340F9D44F}\ :Pulse Secure SSO OneX Password Credential Provider Class
+HKEY_CLASSES_ROOT\CLSID\{4B9CAC01-6732-40d0-8B8F-B5B340F9D44F}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\jamSSOCredProv.dll
+HKEY_CLASSES_ROOT\CLSID\{4EFD0F35-BFBA-44eb-8F25-2B3530203C1D}\ :Pulse Secure SSO Password Credential Provider Class
+HKEY_CLASSES_ROOT\CLSID\{4EFD0F35-BFBA-44eb-8F25-2B3530203C1D}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\jamSSOCredProv.dll
+HKEY_CLASSES_ROOT\CLSID\{61FE4786-084E-4598-8F16-30DED15B6125}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\PulseSecureServicePS.dll
+HKEY_CLASSES_ROOT\CLSID\{635FAC2C-87DF-42CA-9630-301697829BF2}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\8021xAccessMethod\8021xAccessMethodPS.dll
+HKEY_CLASSES_ROOT\CLSID\{673867FA-2CD8-495A-A22C-820A3800A9F5}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\Tunnel Manager\dsTMServicePS.dll
+HKEY_CLASSES_ROOT\CLSID\{8D622A6A-24F5-4EF1-B5E9-5305B0626810}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\AccessMethodPS.dll
+HKEY_CLASSES_ROOT\CLSID\{93DBDC46-C99C-4266-A871-9208213282A1}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\uiPromptPluginPS.dll
+HKEY_CLASSES_ROOT\CLSID\{A36A6A63-33C9-41A5-85A8-FB5CB4D1302D}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\uiModelServicePS.dll
+HKEY_CLASSES_ROOT\CLSID\{C1258FBC-F04F-4862-B78A-DDAAEF4A9707}\ :Pulse Secure SSO OneX Smartcard Credential Provider Class
+HKEY_CLASSES_ROOT\CLSID\{C1258FBC-F04F-4862-B78A-DDAAEF4A9707}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\jamSSOCredProv.dll
+HKEY_CLASSES_ROOT\CLSID\{C1FAF476-B9C2-4F01-A323-074F00A90EA1}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\Integration\IntegrationAccessMethodPS.dll
+HKEY_CLASSES_ROOT\CLSID\{C74D0078-6B9F-4928-BF49-163F885B1332}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\uiModelServicePS.dll
+HKEY_CLASSES_ROOT\CLSID\{E1C2CFAE-0C5A-4416-B24B-9F106A604509}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\dsIpc.dll
+HKEY_CLASSES_ROOT\CLSID\{E60EAB20-C294-4757-8507-E14A72676EA9}\InprocHandler32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JUNS\PulseSecureServicePS.dll
+HKEY_CLASSES_ROOT\CLSID\{EAB1A79F-DFAA-4faf-A7B9-A6652E97EE16}\ :Pulse Secure SSO Smartcard Credential Provider Class
+HKEY_CLASSES_ROOT\CLSID\{EAB1A79F-DFAA-4faf-A7B9-A6652E97EE16}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\jamSSOCredProv.dll
+HKEY_CLASSES_ROOT\CLSID\{F4F3404B-3474-470D-987D-BDAB0329EF46}\InprocServer32\ :C:\Program Files (x86)\Common Files\Pulse Secure\ConnectionStore\ConnectionStoreServicePS.dll
+HKEY_CLASSES_ROOT\Installer\Products\A2404D9BFBB19894394C92F3939FC0B2\ ProductName:Pulse Secure
+HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\Shell\MuiCache\ C:\Users\zsarata001\AppData\Roaming\Pulse Secure\PSAL\PulseApplicationLauncher.exe.FriendlyAppName:Pulse Secure Application Launcher
+HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\Shell\MuiCache\ C:\Users\zsarata001\AppData\Roaming\Pulse Secure\PSAL\PulseApplicationLauncher.exe.ApplicationCompany:Pulse Secure, LLC
+HKEY_CLASSES_ROOT\PulseSecure\shell\open\command\ :"C:\Users\zsarata001\AppData\Roaming\Pulse Secure\PSAL\PulseApplicationLauncher.exe" %1
+HKEY_CLASSES_ROOT\PulseSecure2\shell\open\command\ :"C:\Users\zsarata001\AppData\Roaming\Pulse Secure\PSAL\PulseApplicationLauncher.exe" %1
+HKEY_CLASSES_ROOT\PulseSecureClient\ :URL:Pulse Secure Desktop Client
+HKEY_CLASSES_ROOT\PulseSecureClient\shell\open\command\ :"C:\Program Files (x86)\Common Files\Pulse Secure\JamUI\Pulse.exe" %1

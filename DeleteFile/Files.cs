@@ -14,6 +14,7 @@ namespace DeleteFile
     protected String rootDir;
     protected String currentDir;
     protected int lineLen = 0;
+    protected char Always = ' ';
     // -------------------------------------------------------------------------------
     public Files(string root)
     {
@@ -47,16 +48,23 @@ namespace DeleteFile
       }
       int last = dirs.Count - 1;
       string subName = dirs[last];
-      if (subName.ToLower().Contains(toSearch))
+      if (subName.ToLower().Contains(toSearch) || currentDir.EndsWith("Application Data\\Application Data"))
       {
         ClearLine();
         Console.WriteLine(fullPath);
-        Console.Write("Remove Directory (y/N)?");
-        ConsoleKeyInfo key = Console.ReadKey();
+        Log.WriteLog(String.Format("{0}", fullPath));
+        char key = ' ';
+        if (Always != 'Y' && Always != 'N')
+        {
+          Console.Write("Remove Directory (y/N)?");
+          key = Console.ReadKey().KeyChar;
+        }
         Console.WriteLine();
         try
         {
-          if (key.KeyChar == 'y' || key.KeyChar == 'Y')
+          if (key == 'Y' || key == 'N')
+            Always = key;
+          if (Always == 'Y' || key == 'y')
           {
             last = dirs.Count - 1;
             string parent = dirs[last - 1];
@@ -82,13 +90,21 @@ namespace DeleteFile
             Log.WriteLog(String.Format("{0}: {1}", fullPath, name));
             ClearLine();
             Console.WriteLine(String.Format("{0}: {1}", fullPath, name));
-            Console.Write("Remove File (y/N)?");
-            ConsoleKeyInfo key = Console.ReadKey();
+            Char key = ' ';
+            if (Always != 'Y' && Always != 'N')
+            {
+              Console.Write("Remove File (y/N)?");
+              key = Console.ReadKey().KeyChar;
+            }
             Console.WriteLine();
             try
             {
-              if (key.KeyChar == 'y' || key.KeyChar == 'Y')
+              if (key == 'Y' || key == 'N')
+                Always = key;
+              if (Always == 'Y' || key == 'y')
+              {
                 File.Delete(Path.Combine(currentDir, name));
+              }
             }
             catch(Exception ex)
             {
@@ -107,7 +123,7 @@ namespace DeleteFile
       }
       try
       {
-        subDirNames = Directory.GetDirectories(currentDir);
+        subDirNames = Directory.GetDirectories(currentDir, "*", SearchOption.TopDirectoryOnly);
       }
       catch (Exception ex)
       {
@@ -116,6 +132,20 @@ namespace DeleteFile
       }
       foreach (string subDir in subDirNames)
       {
+        string[] currentEndings = currentDir.Split('\\');
+        string[] subEndings = subDir.Split('\\');
+        if (currentEndings.Contains("Application Data") && subEndings.Last() == "Application Data")
+        {
+          string subSub = subDir;
+          Log.WriteLog(subDir);
+        }
+        if (subEndings.Contains("Application Data"))
+        {
+          if (currentEndings.Contains("Application Data"))
+          {
+            string subSub = subDir;
+          }
+        }
         int li = subDir.LastIndexOf('\\');
         string sub = li > 0 ? subDir.Substring(++li) : subDir;
         dirs.Add(sub);

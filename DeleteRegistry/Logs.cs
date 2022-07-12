@@ -10,6 +10,7 @@ namespace DeleteRegistry
   {
     public static string LogName = "log.txt";
     public static string ErrorName = "error.txt";
+    public static string RegName = "path.txt";
 
     //---------------------------------------------------------------------------
     public static void Init()
@@ -18,7 +19,10 @@ namespace DeleteRegistry
       Object[] args = { };
       string lName = String.Format("regs_{0}_{1}.txt", now.ToString("yyyy-MM-dd"), now.ToLongTimeString());
       LogName = Path.Combine(GetPath(), lName.Replace(':', '_'));
-      ErrorName = Path.Combine(GetPath(), "refs_error.txt");
+      string rName = String.Format("regs_{0}_{1}.reg", now.ToString("yyyy-MM-dd"), now.ToLongTimeString());
+      RegName = Path.Combine(GetPath(), rName.Replace(':', '_'));
+      ErrorName = Path.Combine(GetPath(), "regs_error.txt");
+      WriteReg("Windows Registry Editor Version 5.00", true);
     }
     // ---------------------------------------------------------------------------
     public static void WriteLog(String lString)
@@ -34,6 +38,13 @@ namespace DeleteRegistry
     public static void WriteLog(String lString, Byte[] lData)
     {
       Write(LogName, lString + "; " + Bytes2String(lData), new DateTime(0));
+    }
+    // ---------------------------------------------------------------------------
+    public static void WriteReg(String lString, bool lEmptyLine = false)
+    {
+      Write(RegName, lString, new DateTime(0));
+      if (lEmptyLine)
+        Write(RegName, "", new DateTime(0));
     }
     // ---------------------------------------------------------------------------
     public static void WriteLog(String lString, DateTime now)

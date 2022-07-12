@@ -15,6 +15,8 @@ namespace DeleteRegistry
     protected RegistryKey rootKey;
     protected RegistryKey currentKey;
     protected int lineLen = 0;
+    protected int sbLen = 0;
+    public char Always = ' ';
     // -------------------------------------------------------------------------------
     public Regs(string registrySet)
     {
@@ -65,11 +67,17 @@ namespace DeleteRegistry
       {
         ClearLine();
         Console.WriteLine(fullPath);
-        Console.Write("Remove Registry Key (y/N)?");
-        ConsoleKeyInfo key = Console.ReadKey();
+        char key = ' ';
+        if (Always != 'Y' && Always != 'N')
+        {
+          Console.Write("Remove Registry Key (y/N)?");
+          key = Console.ReadKey().KeyChar;
+        }
         try
         {
-          if (key.KeyChar == 'y' || key.KeyChar == 'Y')
+          if (key == 'Y' || key == 'N')
+            Always = key;
+          if (Always == 'Y' || key == 'y')
           {
             last = keys.Count - 1;
             RegistryKey parent = keys[last - 1];
@@ -79,6 +87,11 @@ namespace DeleteRegistry
             return;
           }
           Console.WriteLine();
+          if (Always == 'N')
+          {
+            WriteRegistryPath(currentKey);
+            return;
+          }
         }
         catch (Exception ex)
         {
@@ -96,16 +109,27 @@ namespace DeleteRegistry
           string value = (string)currentKey.GetValue(name);
           if (fullPath.ToLower().Contains(toSearch) || name.ToLower().Contains(toSearch) || value.ToLower().Contains(toSearch))
             //Console.WriteLine("{0} {1}:{2}", fullPath, name, value);
-          Log.WriteLog(String.Format("{0} {1}:{2}", fullPath, name, value));
+            Log.WriteLog(String.Format("{0} {1}:{2}", fullPath, name, value));
           if (name.ToLower().Contains(toSearch) || value.ToLower().Contains(toSearch))
           {
             ClearLine();
             Console.WriteLine(String.Format("{0} {1}:{2}", fullPath, name, value));
-            Console.Write("Remove Registry Entry (y/N)?");
-            ConsoleKeyInfo key = Console.ReadKey();
-            if (key.KeyChar == 'y' || key.KeyChar == 'Y')
+            char key = ' ';
+            if (Always != 'Y' && Always != 'N')
+            {
+              Console.Write("Remove Registry Entry (y/N)?");
+              key = Console.ReadKey().KeyChar;
+            }
+            if (key == 'Y' || key == 'N')
+              Always = key;
+            if (Always == 'Y' || key == 'y')
               currentKey.DeleteValue(name);
             Console.WriteLine();
+            if (Always == 'N')
+            {
+              WriteRegistryPath(currentKey);
+              return;
+            }
           }
         }
         catch (Exception ex)
@@ -128,8 +152,10 @@ namespace DeleteRegistry
         try
         {
           currentKey = currentKey.OpenSubKey(subKeyName, true);
+          if (currentKey == null)
+            return;
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
           Log.WriteError(String.Format("*** subkey '{0}' {1} ***", fullPath + subKeyName, ex.Message));
           continue;
@@ -176,14 +202,155 @@ namespace DeleteRegistry
       int p = paths.Count;
       for (int i = 0; i < p; i++)
       {
-	      if (i > 0)
-	        path += "\\";
-	      path += paths[i];
+        if (i > 0)
+          path += "\\";
+        path += paths[i];
       }
       path += "\\";
       return path;
     }
     // -------------------------------------------------------------------------------
+    protected void WriteRegistryPath(RegistryKey lKey)
+    {
+      string[] subKeysNames;
+      Log.WriteReg("[" + lKey.Name + "]");
+      string value = (string)lKey.GetValue(null);
+      if (value != null)
+        Log.WriteReg("@=\"" + value + "\"");
+      string[] names = lKey.GetValueNames();
+      foreach (string name in names)
+      {
+        if (name.Length == 0)
+          continue;
+        RegistryValueKind kind = lKey.GetValueKind(name);
+        switch (kind)
+        {
+          case RegistryValueKind.String:
+            string strVal = (string)lKey.GetValue(name);
+            strVal = strVal.Replace("\"", "\\\"");
+            Log.WriteReg(string.Format("\"{0}\"=\"{1}\"", name, strVal));
+            break;
+          case RegistryValueKind.ExpandString:
+            string expandVal = (string)lKey.GetValue(name);
+            string expandHdr = string.Format("\"{0}\"=hex(2):", name);
+            string[] expandStrings = new string[1];
+            expandStrings[0] = expandVal;
+            Log.WriteReg(WriteStrings(expandHdr, expandStrings));
+            break;
+          case RegistryValueKind.MultiString:
+            string[] multiVal = (string[])lKey.GetValue(name);
+            string multiHdr = string.Format("\"{0}\"=hex(7):", name);
+            Log.WriteReg(WriteStrings(multiHdr, multiVal));
+            break;
+          case RegistryValueKind.DWord:
+            Int32 intVal = (Int32)lKey.GetValue(name);
+            Log.WriteReg(string.Format("\"{0}\"=dword:{1}", name, intVal));
+            break;
+          case RegistryValueKind.QWord:
+            Int64 longVal = (Int64)lKey.GetValue(name);
+            string longHdr = string.Format("\"{0}\"=hex(b):", name);
+            byte[] bajty = new byte[8];
+            for (int i = 0; i< 8; i++)
+            {
+              bajty[i] = (byte)(longVal & 0xff);
+              longVal >>= 8;
+            }
+            Log.WriteReg(WriteBytes(longHdr, bajty));
+            break;
+          case RegistryValueKind.Binary:
+            string binaryHdr = string.Format("\"{0}\"=hex:", name);
+            byte[] binaryVal = (byte[])lKey.GetValue(name);
+            Log.WriteReg(WriteBytes(binaryHdr, binaryVal));
+            break;
+          default:
+            break;
+        }
+      }
+      Log.WriteReg("");
+      try
+      {
+        subKeysNames = lKey.GetSubKeyNames();
+      }
+      catch (Exception ex)
+      {
+        Log.WriteError(String.Format("*** subkeys of '{0}' {1} ***", currentKey.Name, ex.Message));
+        subKeysNames = new string[0];
+        Log.WriteReg("");
+        return;
+      }
+      foreach (string subKeyName in subKeysNames)
+      {
+        try
+        {
+          RegistryKey sKey = lKey.OpenSubKey(subKeyName, false);
+          if (lKey == null)
+            return;
+          WriteRegistryPath(sKey);
+        }
+        catch (Exception ex)
+        {
+          Log.WriteError(String.Format("*** subkey '{0}' {1} ***", fullPath + subKeyName, ex.Message));
+          continue;
+        }
+
+      }
+    }
+    // -----------------------------------------------------------------------------
+    protected string WriteStrings(string header, String[] stringi)
+    {
+      StringBuilder sb = new StringBuilder(header);
+      sbLen = header.Length;
+      int size = 0;
+      for (int i = 0; i < stringi.Length; i++)
+        size += 2* stringi[i].Length + 2;
+      if (stringi.Length > 1)
+        size += 2;
+      byte[] bytes = new byte[size];
+      int c = 0;
+      for (int j = 0; j < stringi.Length; j++)
+      {
+        char[] chars = stringi[j].ToCharArray();
+        for (int i = 0; i < chars.Length; i++)
+        {
+          bytes[c++] = (byte)(chars[i] & 0xff);
+          bytes[c++] = (byte)((chars[i] >> 8) & 0xff);
+        }
+        if (stringi.Length > 1)
+        {
+          bytes[c++] = 0;
+          bytes[c++] = 0;
+        }
+      }
+      if (stringi.Length > 1)
+      {
+        bytes[c++] = 0;
+        bytes[c++] = 0;
+      }
+      for( c=0; c<bytes.Length; c++)
+      sb.Append(Byte2String(bytes[c], c == bytes.Length - 1));
+      return sb.ToString();
+    }
+    // -----------------------------------------------------------------------------
+    protected string WriteBytes(string header, byte[] bajty)
+    {
+      StringBuilder sb = new StringBuilder(header);
+      sbLen = header.Length;
+      for (int i = 0; i < bajty.Length; i++)
+      {
+        sb.Append(Byte2String(bajty[i], i == bajty.Length - 1));
+      }
+      return sb.ToString();
+    }
+    // -----------------------------------------------------------------------------
+    protected string Byte2String(byte bajt, bool last = false)
+    {
+      sbLen += 3;
+      if (sbLen <= 76)
+        return String.Format("{0:x2}{1}", bajt, last ? "" : ",");
+      sbLen = 2;
+      return String.Format("{0:x2}{1}\\\r\n  ", bajt, last ? "" : ",");
+    }
+    // -----------------------------------------------------------------------------
     public Int32 GetNumber(RegistryKey key, String val, Int32 def=100)
     {
       Int32 nVal;

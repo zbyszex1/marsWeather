@@ -1,0 +1,224 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Low Rights\ElevationPolicy\{3E8944DC-79B5-4650-9C2E-83885548A119}]
+"AppName"="PulseSetupClient.exe"
+"Policy"=dword:3
+"AppPath"="C:\Users\zsarata001\AppData\Roaming\Pulse Secure\Setup Client"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Pulse_Setup_Client]
+"DisplayVersion"="9.1.8.3999"
+"EstimatedSize"=dword:800
+"DisplayName"="Pulse Secure Setup Client"
+"UninstallString"="\"C:\Users\zsarata001\AppData\Roaming\Pulse Secure\Setup Client\uninstall.exe\""
+"StartupApp"="\"C:\Users\zsarata001\AppData\Roaming\Pulse Secure\Setup Client\PulseSetupClient.exe\""
+"StopApp"="\"C:\Users\zsarata001\AppData\Roaming\Pulse Secure\Setup Client\PulseSetupClient.exe\" -stop"
+"Publisher"="Pulse Secure, LLC"
+"InstallLocation"="C:\Users\zsarata001\AppData\Roaming\Pulse Secure\Setup Client"
+"URLInfoAbout"="http://www.pulsesecure.net"
+
+[HKEY_CURRENT_USER\SOFTWARE\Pulse Secure]
+
+[HKEY_CURRENT_USER\SOFTWARE\Pulse Secure\PSAL]
+"Version"="9.1.11723"
+"Downloader64Installed"=dword:1
+"DownloaderInstalled"=dword:1
+"x86Installed"=dword:1
+"x64Installed"=dword:1
+"psalswitch"=dword:1
+"ResourcesInstalled"=dword:1
+"AppletPath"="C:\Users\zsarata001\AppData\Roaming\Pulse Secure\PSAL\applets"
+
+[HKEY_CURRENT_USER\SOFTWARE\Pulse Secure\Pulse]
+"SelectedConnection"="ive:f69266cee7b91445b9de30fba7b93f9b"
+"MainWindowPlacement"=hex:2f,06,00,00,07,00,00,00,6f,07,00,00,b9,01,00,00
+
+[HKEY_CURRENT_USER\SOFTWARE\Pulse Secure\Pulse\User Data]
+
+[HKEY_CURRENT_USER\SOFTWARE\Pulse Secure\Pulse\User Data\ive:d0e7276e0ca68b40b78db0a3465f4f71]
+"Password1"=hex:7b,00,63,00,61,00,70,00,69,00,7d,00,20,00,31,00,2c,00,30,00,31,\
+  00,30,00,30,00,30,00,30,00,30,00,30,00,64,00,30,00,38,00,63,00,39,00,64,00,\
+  64,00,66,00,30,00,31,00,31,00,35,00,64,00,31,00,31,00,31,00,38,00,63,00,37,\
+  00,61,00,30,00,30,00,63,00,30,00,34,00,66,00,63,00,32,00,39,00,37,00,65,00,\
+  62,00,30,00,31,00,30,00,30,00,30,00,30,00,30,00,30,00,64,00,33,00,35,00,65,\
+  00,62,00,30,00,31,00,63,00,39,00,64,00,33,00,63,00,37,00,38,00,34,00,64,00,\
+  39,00,39,00,65,00,36,00,33,00,64,00,30,00,38,00,65,00,66,00,33,00,34,00,64,\
+  00,66,00,39,00,33,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,\
+  38,00,30,00,30,00,30,00,30,00,30,00,30,00,34,00,36,00,30,00,30,00,35,00,33,\
+  00,30,00,30,00,35,00,37,00,30,00,30,00,30,00,30,00,30,00,30,00,31,00,30,00,\
+  36,00,36,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,31,00,30,00,30,00,30,\
+  00,30,00,32,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,62,00,63,00,66,00,\
+  62,00,38,00,37,00,33,00,39,00,61,00,33,00,31,00,38,00,64,00,31,00,62,00,34,\
+  00,36,00,32,00,63,00,66,00,62,00,31,00,63,00,37,00,38,00,65,00,35,00,65,00,\
+  63,00,36,00,65,00,35,00,33,00,33,00,37,00,38,00,66,00,63,00,30,00,35,00,62,\
+  00,65,00,64,00,65,00,65,00,36,00,36,00,37,00,33,00,38,00,35,00,39,00,30,00,\
+  65,00,37,00,32,00,63,00,65,00,37,00,32,00,37,00,35,00,39,00,30,00,30,00,30,\
+  00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,65,00,38,00,30,00,30,00,30,00,\
+  30,00,30,00,30,00,30,00,30,00,32,00,30,00,30,00,30,00,30,00,32,00,30,00,30,\
+  00,30,00,30,00,30,00,30,00,30,00,38,00,39,00,35,00,65,00,38,00,38,00,38,00,\
+  36,00,30,00,35,00,61,00,36,00,65,00,66,00,32,00,30,00,36,00,35,00,32,00,63,\
+  00,61,00,39,00,63,00,31,00,36,00,34,00,66,00,32,00,66,00,39,00,30,00,36,00,\
+  33,00,34,00,64,00,35,00,34,00,38,00,66,00,62,00,62,00,33,00,39,00,62,00,30,\
+  00,33,00,36,00,62,00,37,00,62,00,38,00,35,00,31,00,62,00,63,00,31,00,35,00,\
+  62,00,32,00,62,00,38,00,33,00,62,00,34,00,33,00,30,00,30,00,30,00,30,00,30,\
+  00,30,00,30,00,38,00,36,00,63,00,64,00,38,00,34,00,61,00,64,00,35,00,37,00,\
+  66,00,36,00,65,00,64,00,36,00,33,00,36,00,31,00,36,00,39,00,32,00,37,00,61,\
+  00,38,00,65,00,36,00,33,00,36,00,33,00,37,00,35,00,65,00,66,00,36,00,37,00,\
+  33,00,31,00,62,00,38,00,30,00,65,00,35,00,34,00,37,00,38,00,32,00,38,00,39,\
+  00,65,00,38,00,37,00,64,00,36,00,36,00,62,00,38,00,39,00,66,00,39,00,63,00,\
+  64,00,61,00,36,00,62,00,37,00,63,00,36,00,61,00,61,00,64,00,32,00,32,00,32,\
+  00,32,00,33,00,65,00,33,00,39,00,37,00,35,00,31,00,35,00,36,00,63,00,35,00,\
+  63,00,61,00,64,00,63,00,66,00,33,00,32,00,65,00,64,00,66,00,32,00,34,00,30,\
+  00,30,00,30,00,30,00,30,00,30,00,30,00,62,00,61,00,63,00,36,00,32,00,64,00,\
+  64,00,30,00,62,00,35,00,33,00,31,00,62,00,36,00,39,00,31,00,38,00,31,00,33,\
+  00,33,00,61,00,35,00,31,00,62,00,66,00,65,00,65,00,36,00,32,00,35,00,32,00,\
+  66,00,35,00,38,00,66,00,32,00,38,00,66,00,64,00,30,00,65,00,39,00,33,00,35,\
+  00,63,00,35,00,35,00,66,00,36,00,39,00,63,00,33,00,63,00,38,00,31,00,63,00,\
+  39,00,38,00,62,00,66,00,35,00,38,00,66,00,38,00,66,00,66,00,35,00,33,00,38,\
+  00,31,00,61,00,65,00,39,00,33,00,33,00,32,00,62,00,31,00,64,00,61,00,34,00,\
+  62,00,61,00,62,00,66,00,66,00,66,00,62,00,31,00,32,00,66,00,39,00,39,00,38,\
+  00,37,00,66,00,66,00,63,00,36,00,34,00,30,00,37,00,62,00,30,00,38,00,38,00,\
+  38,00,38,00,66,00,38,00,30,00,34,00,32,00,38,00,35,00,66,00,35,00,31,00,38,\
+  00,32,00,66,00,33,00,39,00,63,00,64,00,39,00,66,00,31,00,00,00
+
+[HKEY_CURRENT_USER\SOFTWARE\Pulse Secure\Pulse\User Data\ive:f69266cee7b91445b9de30fba7b93f9b]
+"Password1"=hex:7b,00,63,00,61,00,70,00,69,00,7d,00,20,00,31,00,2c,00,30,00,31,\
+  00,30,00,30,00,30,00,30,00,30,00,30,00,64,00,30,00,38,00,63,00,39,00,64,00,\
+  64,00,66,00,30,00,31,00,31,00,35,00,64,00,31,00,31,00,31,00,38,00,63,00,37,\
+  00,61,00,30,00,30,00,63,00,30,00,34,00,66,00,63,00,32,00,39,00,37,00,65,00,\
+  62,00,30,00,31,00,30,00,30,00,30,00,30,00,30,00,30,00,64,00,33,00,35,00,65,\
+  00,62,00,30,00,31,00,63,00,39,00,64,00,33,00,63,00,37,00,38,00,34,00,64,00,\
+  39,00,39,00,65,00,36,00,33,00,64,00,30,00,38,00,65,00,66,00,33,00,34,00,64,\
+  00,66,00,39,00,33,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,\
+  38,00,30,00,30,00,30,00,30,00,30,00,30,00,34,00,36,00,30,00,30,00,35,00,33,\
+  00,30,00,30,00,35,00,37,00,30,00,30,00,30,00,30,00,30,00,30,00,31,00,30,00,\
+  36,00,36,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,31,00,30,00,30,00,30,\
+  00,30,00,32,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,39,00,30,00,35,00,\
+  37,00,65,00,31,00,32,00,36,00,32,00,32,00,39,00,62,00,38,00,65,00,64,00,39,\
+  00,61,00,32,00,30,00,32,00,38,00,38,00,65,00,34,00,33,00,34,00,66,00,30,00,\
+  38,00,33,00,62,00,38,00,34,00,65,00,35,00,36,00,64,00,35,00,37,00,63,00,35,\
+  00,62,00,30,00,63,00,61,00,31,00,39,00,63,00,34,00,64,00,63,00,66,00,62,00,\
+  37,00,64,00,31,00,64,00,63,00,33,00,62,00,35,00,31,00,39,00,33,00,30,00,30,\
+  00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,65,00,38,00,30,00,30,00,30,00,\
+  30,00,30,00,30,00,30,00,30,00,32,00,30,00,30,00,30,00,30,00,32,00,30,00,30,\
+  00,30,00,30,00,30,00,30,00,30,00,35,00,32,00,61,00,36,00,30,00,30,00,64,00,\
+  62,00,65,00,37,00,33,00,36,00,30,00,65,00,32,00,39,00,65,00,30,00,31,00,34,\
+  00,61,00,38,00,36,00,62,00,32,00,61,00,34,00,31,00,63,00,61,00,62,00,36,00,\
+  35,00,36,00,63,00,31,00,39,00,39,00,62,00,66,00,38,00,63,00,36,00,39,00,38,\
+  00,31,00,39,00,65,00,64,00,63,00,63,00,30,00,38,00,35,00,35,00,31,00,38,00,\
+  30,00,62,00,66,00,33,00,63,00,39,00,35,00,33,00,30,00,30,00,30,00,30,00,30,\
+  00,30,00,30,00,34,00,66,00,30,00,31,00,62,00,61,00,66,00,63,00,65,00,33,00,\
+  30,00,36,00,61,00,64,00,38,00,65,00,31,00,63,00,38,00,66,00,33,00,37,00,34,\
+  00,61,00,65,00,61,00,30,00,66,00,66,00,33,00,64,00,66,00,34,00,65,00,64,00,\
+  34,00,65,00,35,00,32,00,37,00,39,00,38,00,33,00,33,00,65,00,64,00,36,00,30,\
+  00,36,00,31,00,37,00,65,00,35,00,33,00,63,00,63,00,62,00,63,00,61,00,38,00,\
+  37,00,61,00,37,00,36,00,38,00,32,00,39,00,39,00,61,00,33,00,64,00,36,00,37,\
+  00,65,00,61,00,35,00,30,00,37,00,30,00,37,00,34,00,65,00,61,00,64,00,34,00,\
+  35,00,39,00,31,00,61,00,38,00,63,00,34,00,37,00,31,00,64,00,61,00,34,00,30,\
+  00,30,00,30,00,30,00,30,00,30,00,30,00,34,00,31,00,30,00,33,00,62,00,63,00,\
+  33,00,38,00,63,00,64,00,30,00,64,00,33,00,39,00,30,00,35,00,39,00,30,00,37,\
+  00,35,00,62,00,35,00,35,00,32,00,30,00,66,00,34,00,32,00,64,00,65,00,38,00,\
+  64,00,31,00,39,00,66,00,38,00,63,00,34,00,32,00,31,00,34,00,33,00,63,00,61,\
+  00,63,00,65,00,62,00,61,00,36,00,63,00,66,00,35,00,30,00,32,00,61,00,31,00,\
+  39,00,61,00,38,00,63,00,39,00,35,00,39,00,30,00,35,00,35,00,36,00,38,00,31,\
+  00,31,00,36,00,65,00,33,00,35,00,37,00,65,00,65,00,63,00,63,00,37,00,34,00,\
+  65,00,39,00,65,00,37,00,37,00,32,00,34,00,61,00,34,00,62,00,66,00,65,00,38,\
+  00,36,00,66,00,32,00,63,00,65,00,63,00,34,00,65,00,63,00,35,00,32,00,34,00,\
+  32,00,65,00,32,00,36,00,37,00,30,00,61,00,66,00,36,00,34,00,63,00,34,00,31,\
+  00,64,00,33,00,36,00,61,00,37,00,65,00,33,00,65,00,66,00,00,00
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache]
+"LangID"=hex:09,04
+"C:\Program Files\Internet Explorer\iexplore.exe.FriendlyAppName"="Internet Explorer"
+"C:\Program Files\Internet Explorer\iexplore.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Windows\System32\appresolver.dll.FriendlyAppName"="App Resolver"
+"C:\Windows\System32\appresolver.dll.ApplicationCompany"="Microsoft Corporation"
+"C:\Windows\system32\windows.storage.dll.FriendlyAppName"="Microsoft WinRT Storage API"
+"C:\Windows\system32\windows.storage.dll.ApplicationCompany"="Microsoft Corporation"
+"C:\Windows\System32\shell32.dll.FriendlyAppName"="Windows Shell Common Dll"
+"C:\Windows\System32\shell32.dll.ApplicationCompany"="Microsoft Corporation"
+"C:\Windows\System32\msiexec.exe.FriendlyAppName"="Windows® installer"
+"C:\Windows\System32\msiexec.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Windows\System32\WScript.exe.FriendlyAppName"="Microsoft ® Windows Based Script Host"
+"C:\Windows\System32\WScript.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Windows\system32\explorerframe.dll.FriendlyAppName"="ExplorerFrame"
+"C:\Windows\system32\explorerframe.dll.ApplicationCompany"="Microsoft Corporation"
+"C:\Windows\Explorer.exe.FriendlyAppName"="Windows Explorer"
+"C:\Windows\Explorer.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Windows\system32\mmc.exe.FriendlyAppName"="Microsoft Management Console"
+"C:\Windows\system32\mmc.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files\Microsoft Office\root\Client\AppVLP.exe.FriendlyAppName"="appvlp"
+"C:\Program Files\Microsoft Office\root\Client\AppVLP.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files\WinZip\winzip64.exe.FriendlyAppName"="WinZip"
+"C:\Program Files\WinZip\winzip64.exe.ApplicationCompany"="WinZip Computing"
+"C:\Windows\System32\fsquirt.exe.FriendlyAppName"="fsquirt.exe"
+"C:\Windows\System32\fsquirt.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Windows\system32\WFS.exe.FriendlyAppName"="Microsoft  Windows Fax and Scan"
+"C:\Windows\system32\WFS.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Windows\system32\mspaint.exe.FriendlyAppName"="Paint"
+"C:\Windows\system32\mspaint.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Windows\system32\NOTEPAD.EXE.FriendlyAppName"="Notepad"
+"C:\Windows\system32\NOTEPAD.EXE.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files\Microsoft Office\Root\Office16\WINWORD.EXE.FriendlyAppName"="Word"
+"C:\Program Files\Microsoft Office\Root\Office16\WINWORD.EXE.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files\Google\Chrome\Application\chrome.exe.FriendlyAppName"="Google Chrome"
+"C:\Program Files\Google\Chrome\Application\chrome.exe.ApplicationCompany"="Google LLC"
+"C:\Program Files\Google\Drive File Stream\58.0.3.0\GoogleDriveFS.exe.FriendlyAppName"="Google Drive"
+"C:\Program Files\Google\Drive File Stream\58.0.3.0\GoogleDriveFS.exe.ApplicationCompany"="Google, Inc."
+"C:\Program Files\Microsoft Office\Root\Office16\POWERPNT.EXE.FriendlyAppName"="PowerPoint"
+"C:\Program Files\Microsoft Office\Root\Office16\POWERPNT.EXE.ApplicationCompany"="Microsoft Corporation"
+"C:\Users\zsarata001\Downloads\enu_sql_server_2016_express_edition_with_service_pack_3_x64_4ead5e35.exe.FriendlyAppName"="Microsoft SQL Server 2016  Express SP3"
+"C:\Users\zsarata001\Downloads\enu_sql_server_2016_express_edition_with_service_pack_3_x64_4ead5e35.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSLauncher.exe.FriendlyAppName"="Microsoft Visual Studio Version Selector"
+"C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSLauncher.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\devenv.exe.FriendlyAppName"="Microsoft Visual Studio 2022"
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\devenv.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\blend.exe.FriendlyAppName"="Blend for Visual Studio"
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\blend.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\devenv.exe.FriendlyAppName"="Microsoft Visual Studio 2019"
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\devenv.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\blend.exe.FriendlyAppName"="Blend for Visual Studio"
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\blend.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Windows\system32\OpenWith.exe.FriendlyAppName"="Pick an app"
+"C:\Windows\system32\OpenWith.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\VSWebLauncher.exe.FriendlyAppName"="Microsoft Visual Studio Web Protocol Handler Selector"
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\VSWebLauncher.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\VSWebLauncher.exe.FriendlyAppName"="Microsoft Visual Studio Web Protocol Handler Selector"
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\VSWebLauncher.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files\Azure Data Studio\azuredatastudio.exe.FriendlyAppName"="Azure Data Studio"
+"C:\Program Files\Azure Data Studio\azuredatastudio.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files\Windows NT\Accessories\WORDPAD.EXE.FriendlyAppName"="WordPad"
+"C:\Program Files\Windows NT\Accessories\WORDPAD.EXE.ApplicationCompany"="Microsoft Corporation"
+"C:\Users\zsarata001\AppData\Local\Programs\Microsoft VS Code\Code.exe.FriendlyAppName"="Visual Studio Code"
+"C:\Users\zsarata001\AppData\Local\Programs\Microsoft VS Code\Code.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe.FriendlyAppName"="Adobe Acrobat Reader DC"
+"C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe.ApplicationCompany"="Adobe Systems Incorporated"
+"C:\Program Files\Windows Photo Viewer\PhotoViewer.dll.FriendlyAppName"="Windows Photo Viewer"
+"C:\Program Files\Windows Photo Viewer\PhotoViewer.dll.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files (x86)\Windows Media Player\wmplayer.exe.FriendlyAppName"="Windows Media Player"
+"C:\Program Files (x86)\Windows Media Player\wmplayer.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files\Google\Chrome\Application\chrome_proxy.exe.FriendlyAppName"="Google Chrome"
+"C:\Program Files\Google\Chrome\Application\chrome_proxy.exe.ApplicationCompany"="Google LLC"
+"C:\Users\zsarata001\AppData\Local\Postman\app-9.19.0\Postman.exe.FriendlyAppName"="Postman"
+"C:\Users\zsarata001\AppData\Local\Postman\app-9.19.0\Postman.exe.ApplicationCompany"="Postman"
+"C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE.FriendlyAppName"="Excel"
+"C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE.ApplicationCompany"="Microsoft Corporation"
+"C:\users\zsarata001\appdata\local\microsoft\teams\current\teams.exe.FriendlyAppName"="Microsoft Teams"
+"C:\users\zsarata001\appdata\local\microsoft\teams\current\teams.exe.ApplicationCompany"="Microsoft Corporation"
+"C:\Program Files\Certum\SimplySign Desktop\proCertum SmartSign\RSContextUnregister64.bat.FriendlyAppName"="RSContextUnregister64.bat"
+"C:\Program Files\Git\git-bash.exe.FriendlyAppName"="Git for Windows"
+"C:\Program Files\Git\git-bash.exe.ApplicationCompany"="The Git Development Community"
+"C:\Program Files\Notepad++\notepad++.exe.FriendlyAppName"="Notepad++"
+"C:\Program Files\Notepad++\notepad++.exe.ApplicationCompany"="Don HO don.h@free.fr"
+"D:\kav21.3.10.391pl_25790.exe.FriendlyAppName"="Kaspersky Anti-Virus [21.3.10.391.0.200.0]"
+"D:\kav21.3.10.391pl_25790.exe.ApplicationCompany"="Kaspersky"
+"C:\Users\zsarata001\AppData\Roaming\Pulse Secure\PSAL\PulseApplicationLauncher.exe.FriendlyAppName"="Pulse Secure Application Launcher"
+"C:\Users\zsarata001\AppData\Roaming\Pulse Secure\PSAL\PulseApplicationLauncher.exe.ApplicationCompany"="Pulse Secure, LLC"
+"C:\Windows\regedit.exe.FriendlyAppName"="Registry Editor"
+"C:\Windows\regedit.exe.ApplicationCompany"="Microsoft Corporation"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\PulseSecure\shell\open\command]
+@=""C:\Users\zsarata001\AppData\Roaming\Pulse Secure\PSAL\PulseApplicationLauncher.exe" %1"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\PulseSecure2\shell\open\command]
+@=""C:\Users\zsarata001\AppData\Roaming\Pulse Secure\PSAL\PulseApplicationLauncher.exe" %1"
+

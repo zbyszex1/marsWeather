@@ -1,0 +1,16 @@
+E:\ZZS\VS\MarsWeather\Exe\PulseSecure.exe.config
+E:\ZZS\VS\MarsWeather\Exe\PulseSecure.exe
+E:\ZZS\VS\MarsWeather\Exe\PulseSecure.pdb
+E:\ZZS\VS\MarsWeather\PulseSecure\obj\Release\DeleteRegistry.csproj.AssemblyReference.cache
+E:\ZZS\VS\MarsWeather\PulseSecure\obj\Release\DeleteRegistry.csproj.SuggestedBindingRedirects.cache
+E:\ZZS\VS\MarsWeather\PulseSecure\obj\Release\DeleteRegistry.csproj.CoreCompileInputs.cache
+E:\ZZS\VS\MarsWeather\PulseSecure\obj\Release\PulseSecure.exe
+E:\ZZS\VS\MarsWeather\PulseSecure\obj\Release\PulseSecure.pdb
+C:\Users\zsarata001\Projects\MarsWeather\Exe\DeleteRegistry.exe.config
+C:\Users\zsarata001\Projects\MarsWeather\Exe\DeleteRegistry.exe
+C:\Users\zsarata001\Projects\MarsWeather\Exe\DeleteRegistry.pdb
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\DeleteRegistry.csproj.AssemblyReference.cache
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\DeleteRegistry.csproj.SuggestedBindingRedirects.cache
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\DeleteRegistry.csproj.CoreCompileInputs.cache
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\DeleteRegistry.exe
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\DeleteRegistry.pdb

@@ -1,0 +1,16 @@
+E:\ZZS\VS\MarsWeather\Exe\DeleteFile.exe.config
+E:\ZZS\VS\MarsWeather\Exe\DeleteFile.exe
+E:\ZZS\VS\MarsWeather\Exe\DeleteFile.pdb
+E:\ZZS\VS\MarsWeather\DeleteFile\obj\Debug\DeleteFile.csproj.AssemblyReference.cache
+E:\ZZS\VS\MarsWeather\DeleteFile\obj\Debug\DeleteFile.csproj.SuggestedBindingRedirects.cache
+E:\ZZS\VS\MarsWeather\DeleteFile\obj\Debug\DeleteFile.csproj.CoreCompileInputs.cache
+E:\ZZS\VS\MarsWeather\DeleteFile\obj\Debug\DeleteFile.exe
+E:\ZZS\VS\MarsWeather\DeleteFile\obj\Debug\DeleteFile.pdb
+C:\Users\zsarata001\Projects\MarsWeather\Exe\DeleteFile.exe.config
+C:\Users\zsarata001\Projects\MarsWeather\Exe\DeleteFile.exe
+C:\Users\zsarata001\Projects\MarsWeather\Exe\DeleteFile.pdb
+C:\Users\zsarata001\Projects\MarsWeather\DeleteFile\obj\Debug\DeleteFile.csproj.AssemblyReference.cache
+C:\Users\zsarata001\Projects\MarsWeather\DeleteFile\obj\Debug\DeleteFile.csproj.SuggestedBindingRedirects.cache
+C:\Users\zsarata001\Projects\MarsWeather\DeleteFile\obj\Debug\DeleteFile.csproj.CoreCompileInputs.cache
+C:\Users\zsarata001\Projects\MarsWeather\DeleteFile\obj\Debug\DeleteFile.exe
+C:\Users\zsarata001\Projects\MarsWeather\DeleteFile\obj\Debug\DeleteFile.pdb

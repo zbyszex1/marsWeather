@@ -10,6 +10,7 @@ namespace DeleteRegistry
   {
     static void Main(string[] args)
     {
+      Console.WriteLine("UseName: " + Environment.UserName);
       string registrySet = "";
       string search = "";
       if (args.Length > 0 )
@@ -49,14 +50,20 @@ namespace DeleteRegistry
       {
         Regs regs = new Regs("localmachine");
         regs.List(search.ToLower());
+        char always = regs.Always;
         regs.ClearLine();
         regs = new Regs("currentuser");
+        regs.Always = always;
         regs.List(search.ToLower());
+        always = regs.Always;
         regs.ClearLine();
         regs = new Regs("currentconfig");
+        regs.Always = always;
         regs.List(search.ToLower());
+        always = regs.Always;
         regs.ClearLine();
         regs = new Regs("classesroot");
+        regs.Always = always;
         regs.List(search.ToLower());
         regs.ClearLine();
       }

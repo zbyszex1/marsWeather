@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MarsConsole/1.0.0": {
+        "dependencies": {
+          "MarsDll": "1.0.0"
+        },
+        "runtime": {
+          "MarsConsole.dll": {}
+        }
+      },
+      "MarsDll/1.0.0": {
+        "runtime": {
+          "MarsDll.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MarsConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MarsDll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

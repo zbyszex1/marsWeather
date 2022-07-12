@@ -1,0 +1,5 @@
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Low Rights\ElevationPolicy\{3E8944DC-79B5-4650-9C2E-83885548A119}\ AppPath:C:\Users\zsarata001\AppData\Roaming\Pulse Secure\Setup Client
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Pulse_Setup_Client\ DisplayName:Pulse Secure Setup Client
+HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache\ C:\Users\zsarata001\AppData\Roaming\Pulse Secure\PSAL\PulseApplicationLauncher.exe.FriendlyAppName:Pulse Secure Application Launcher
+HKEY_CURRENT_USER\SOFTWARE\Classes\PulseSecure\shell\open\command\ :"C:\Users\zsarata001\AppData\Roaming\Pulse Secure\PSAL\PulseApplicationLauncher.exe" %1
+HKEY_CURRENT_USER\SOFTWARE\Classes\PulseSecure2\shell\open\command\ :"C:\Users\zsarata001\AppData\Roaming\Pulse Secure\PSAL\PulseApplicationLauncher.exe" %1

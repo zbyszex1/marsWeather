@@ -10,7 +10,7 @@ namespace DeleteFile
   {
     static void Main(string[] args)
     {
-      Console.WriteLine(Environment.UserName);
+      Console.WriteLine("UseName: " + Environment.UserName);
       string directorySet = "";
       string search = "";
       if (args.Length > 0)
@@ -24,7 +24,7 @@ namespace DeleteFile
         Console.Write("Where to search? ");
         directorySet = Console.ReadLine();
       }
-      if (directorySet.ToLower() != "program files" && directorySet.ToLower() != "program files(x86)" &&
+      if (directorySet.ToLower() != "program files" && directorySet.ToLower() != "program files (x86)" &&
           directorySet.ToLower() != "users" && directorySet.ToLower() != "all")
       {
         Console.WriteLine("run with 'Program Files', 'Program Filse (x86)', 'Users', or 'ALL'");

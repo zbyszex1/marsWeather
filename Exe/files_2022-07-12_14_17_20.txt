@@ -1,0 +1,6 @@
+C:\Users\zsarata001\AppData\Roaming\Microsoft\Windows\Recent\: C:\Users\zsarata001\AppData\Roaming\Microsoft\Windows\Recent\debuglog.log.lnk
+C:\Users\zsarata001\Application Data\Microsoft\Windows\Recent\: C:\Users\zsarata001\Application Data\Microsoft\Windows\Recent\debuglog.log.lnk
+C:\Users\zsarata001\Desktop\LogsAndDiagnostics\Logs\ProgramData\: C:\Users\zsarata001\Desktop\LogsAndDiagnostics\Logs\ProgramData\debuglog.log
+C:\Users\zsarata001\Desktop\LogsAndDiagnostics\Logs\ProgramData\: C:\Users\zsarata001\Desktop\LogsAndDiagnostics\Logs\ProgramData\debuglog.log.old
+C:\Users\zsarata001\Desktop\LogsAndDiagnostics\Logs\Public\: C:\Users\zsarata001\Desktop\LogsAndDiagnostics\Logs\Public\debuglog.log
+C:\Users\zsarata001\Recent\: C:\Users\zsarata001\Recent\debuglog.log.lnk

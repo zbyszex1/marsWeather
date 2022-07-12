@@ -1,0 +1,5 @@
+C:\Program Files (x86)\Common Files\Pulse Secure\
+C:\Program Files (x86)\Pulse Secure\
+C:\Users\zsarata001\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\LocalState\AppIconCache\100\: C:\Users\zsarata001\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\LocalState\AppIconCache\100\Pulse Secure_Pulse_UserInterface
+C:\Users\zsarata001\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\LocalState\AppIconCache\100\: C:\Users\zsarata001\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\LocalState\AppIconCache\100\{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}_Pulse Secure_Pulse_PulseUninstall_exe
+C:\Users\zsarata001\AppData\Roaming\Pulse Secure\

@@ -1,0 +1,29 @@
+C:\Users\zsarata001\Desktop\LogsAndDiagnostics\Events\: C:\Users\zsarata001\Desktop\LogsAndDiagnostics\Events\PulseSecureEvents.evtx
+C:\Users\zsarata001\Desktop\LogsAndDiagnostics\PulseProgram\Pulse\: C:\Users\zsarata001\Desktop\LogsAndDiagnostics\PulseProgram\Pulse\PulseSecureVersion.ini
+C:\Users\zsarata001\Desktop\screenshots\: C:\Users\zsarata001\Desktop\screenshots\PulseSecure1.png
+C:\Users\zsarata001\Desktop\screenshots\: C:\Users\zsarata001\Desktop\screenshots\PulseSecure2.png
+C:\Users\zsarata001\Desktop\screenshots\: C:\Users\zsarata001\Desktop\screenshots\PulseSecure3.png
+C:\Users\zsarata001\Desktop\screenshots\: C:\Users\zsarata001\Desktop\screenshots\PulseSecure4.png
+C:\Users\zsarata001\Desktop\screenshots\: C:\Users\zsarata001\Desktop\screenshots\PulseSecure5.png
+C:\Users\zsarata001\Downloads\: C:\Users\zsarata001\Downloads\PulseSecureAppLauncher (1).msi
+C:\Users\zsarata001\Downloads\: C:\Users\zsarata001\Downloads\PulseSecureAppLauncher (2).msi
+C:\Users\zsarata001\Downloads\: C:\Users\zsarata001\Downloads\PulseSecureAppLauncher (3).msi
+C:\Users\zsarata001\Downloads\: C:\Users\zsarata001\Downloads\PulseSecureAppLauncher (4).msi
+C:\Users\zsarata001\Downloads\: C:\Users\zsarata001\Downloads\PulseSecureAppLauncher (5).msi
+C:\Users\zsarata001\Downloads\: C:\Users\zsarata001\Downloads\PulseSecureAppLauncher (6).msi
+C:\Users\zsarata001\Downloads\: C:\Users\zsarata001\Downloads\PulseSecureAppLauncher (7).msi
+C:\Users\zsarata001\Downloads\: C:\Users\zsarata001\Downloads\PulseSecureAppLauncher (8).msi
+C:\Users\zsarata001\Downloads\: C:\Users\zsarata001\Downloads\PulseSecureAppLauncher.msi
+C:\Users\zsarata001\Downloads\: C:\Users\zsarata001\Downloads\PulseSecure_PulseSecure_9.1.3999_EN_01.msi
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Debug\: C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Debug\PulseSecure.csproj.AssemblyReference.cache
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Debug\: C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Debug\PulseSecure.csproj.CoreCompileInputs.cache
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Debug\: C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Debug\PulseSecure.csproj.FileListAbsolute.txt
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Debug\: C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Debug\PulseSecure.csproj.SuggestedBindingRedirects.cache
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Debug\: C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Debug\PulseSecure.exe
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Debug\: C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Debug\PulseSecure.pdb
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\: C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\PulseSecure.csproj.AssemblyReference.cache
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\: C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\PulseSecure.csproj.CoreCompileInputs.cache
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\: C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\PulseSecure.csproj.FileListAbsolute.txt
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\: C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\PulseSecure.csproj.SuggestedBindingRedirects.cache
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\: C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\PulseSecure.exe
+C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\: C:\Users\zsarata001\Projects\MarsWeather\DeleteRegistry\obj\Release\PulseSecure.pdb

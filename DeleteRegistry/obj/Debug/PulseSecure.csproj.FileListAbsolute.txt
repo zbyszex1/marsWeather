@@ -1,0 +1,8 @@
+E:\ZZS\VS\MarsWeather\Exe\PulseSecure.exe.config
+E:\ZZS\VS\MarsWeather\Exe\PulseSecure.exe
+E:\ZZS\VS\MarsWeather\Exe\PulseSecure.pdb
+E:\ZZS\VS\MarsWeather\PulseSecure\obj\Debug\PulseSecure.csproj.AssemblyReference.cache
+E:\ZZS\VS\MarsWeather\PulseSecure\obj\Debug\PulseSecure.csproj.SuggestedBindingRedirects.cache
+E:\ZZS\VS\MarsWeather\PulseSecure\obj\Debug\PulseSecure.csproj.CoreCompileInputs.cache
+E:\ZZS\VS\MarsWeather\PulseSecure\obj\Debug\PulseSecure.exe
+E:\ZZS\VS\MarsWeather\PulseSecure\obj\Debug\PulseSecure.pdb

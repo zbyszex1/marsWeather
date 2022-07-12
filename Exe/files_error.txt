@@ -1,0 +1,2 @@
+2022-07-11 12:31:59:05; can't delete directory 'C:\Program Files (x86)\Common Files\Pulse Secure\' Access to the path '8021xAccessMethod.dll' is denied. ***
+2022-07-11 13:00:31:72; can't delete directory 'C:\Program Files (x86)\Common Files\Pulse Secure\' Access to the path '8021xAccessMethod.dll' is denied. ***
